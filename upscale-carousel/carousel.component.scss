@@ -1,4 +1,14 @@
 @import '~styles/helpers/_module';
-.img {
-	width: 10px;
-}
+
+.carousel-container {
+	
+	.slide {
+		width: 20%;
+
+		.upscale-generic-image {
+			padding-top: 2%;
+			@media (min-width: 1300px) {
+				padding-top: 7px;
+			}
+		}
+	}
