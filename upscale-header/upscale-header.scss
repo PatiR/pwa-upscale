@@ -1,0 +1,13 @@
+@import '~styles/helpers/_module';
+
+header {
+	background-color: pink;
+
+	.header {
+		background-color: green;
+
+		&__top {
+			background-color: blue;
+		}
+	}
+}
