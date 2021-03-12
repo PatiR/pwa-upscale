@@ -1,12 +1,13 @@
-@import '~styles/helpers/_module';
-
 .header {
-	.ng-star-inserted a{
-		color: #b59e8b;
-	
-		&:hover {
-			background-color: #b59e8b;
-			color: black;
+	.ng-star-inserted {
+		
+		a{
+			color: #b59e8b;
+		
+			&:hover {
+				background-color: #b59e8b;
+				color: black;
+			}
 		}
 	}
 }
