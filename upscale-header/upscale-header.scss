@@ -1,13 +1,11 @@
 @import '~styles/helpers/_module';
 
-* {
-	background-color: pink;	
-}
-
 .header {
-	background-color: green;
+	color: rgb(224, 107, 77);
 
-	&__top {
-		background-color: blue;
+	&__bottom {
+		.ng-star-inserted:hover {
+			background-color: rgb(224, 107, 77);
+		}
 	}
 }
