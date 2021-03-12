@@ -1,13 +1,13 @@
 @import '~styles/helpers/_module';
 
 header {
-	background-color: pink;
+	background-color: pink;	
+}
 
-	.header {
-		background-color: green;
+.header {
+	background-color: green;
 
-		&__top {
-			background-color: blue;
-		}
+	&__top {
+		background-color: blue;
 	}
 }
