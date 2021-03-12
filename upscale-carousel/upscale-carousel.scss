@@ -2,17 +2,10 @@
 
 .carousel-container {
 	
-	.slide {
-		width: 20%;
+	width: 50%;
+	margin: 0 auto;
 
-		.upscale-generic-image {
-			padding-top: 2%;
-			@media (min-width: 1300px) {
-				padding-top: 7px;
-			}
-		}
-	}
 	.component-headline {
-		color: red;
+		color: #b59e8b;
 	}
 }

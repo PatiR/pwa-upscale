@@ -1,11 +1,11 @@
 @import '~styles/helpers/_module';
 
 .header {
-	color: rgb(224, 107, 77);
-
-	&__bottom {
-		.ng-star-inserted:hover {
-			background-color: rgb(224, 107, 77);
+	.ng-star-inserte a{
+		color: #b59e8b;
+	
+		&:hover {
+			background-color: #b59e8b;
 			color: black;
 		}
 	}
